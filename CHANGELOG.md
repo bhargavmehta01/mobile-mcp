@@ -1,3 +1,6 @@
+## Unreleased
+* Feat: Lease local devices with `mobile_lease_device`, `mobile_renew_lease`, `mobile_release_lease` and `mobile_list_leases`, so several agents on one machine can share its devices without driving the same one. A lease handle works as the `device` of every tool, and devices nobody leased work as before
+
 ## [1.0.15](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.15) (2026-10-30)
 * Feat: `mobile_clear_app_data` clears an app's data on Android and iOS Simulator ([#524](https://github.com/mobile-next/mobile-mcp/pull/524))
 * Fix: `mobile_save_screenshot` and `mobile_get_device_logs` replace the output file by rename, so a hard link at `saveTo` is never written through ([#533](https://github.com/mobile-next/mobile-mcp/pull/533)), thanks to [@Daniel-GrunbergerCA](https://github.com/Daniel-GrunbergerCA)
