@@ -1,3 +1,6 @@
+## Unreleased
+* Feat: Lease local devices with `mobile_lease_device`, `mobile_renew_lease`, `mobile_release_lease` and `mobile_list_leases`, so several agents on one machine can share its devices without driving the same one. A lease handle works as the `device` of every tool, and devices nobody leased work as before
+
 ## [1.0.19](https://github.com/mobile-next/mobile-mcp/releases/tag/1.0.19) (2026-11-22)
 * Feat: `mobile_launch_app` passes launch arguments and environment variables to the app ([#523](https://github.com/mobile-next/mobile-mcp/pull/523))
 * Feat: Note device available when listing remote devices ([#569](https://github.com/mobile-next/mobile-mcp/pull/569))
